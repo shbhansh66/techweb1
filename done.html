@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Show "Done" on Button Click</title>
+  <link rel="stylesheet" href="home.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+
+    #done-message {
+      display: none;
+      margin-top: 20px;
+      font-size: 24px;
+      color: green;
+    }
+  </style>
+</head>
+<body>
+    <header class="header">
+        <img src="WhatsApp Image 2023-12-02 at 13.39.00_24865ebb.jpg" alt="College Logo">
+        <div class="college-info">
+            <h1>GURUKUL KANGRI UNIVERSITY</h1>
+            <p>Haridwar, Uttarakhand-249404</p>
+        </div>
+    </header>
+  <div id="done-message">Done</div>
+
+  <script>
+    function showDone() {
+      // Get the done message element
+      var doneMessage = document.getElementById('done-message');
+
+      // Display the done message
+      doneMessage.style.display = '';
+    }
+//   </script>
+
+</body>
+</html>

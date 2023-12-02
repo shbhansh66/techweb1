@@ -1,0 +1,82 @@
+/* body{
+    width: 100%;
+}
+#container1{
+    width: 30%;
+    height: 50vh;
+    display: flex;
+    background-color: aqua;
+    align-items: center;
+    /* margin: 25%; */
+    /* border-radius: 5%;
+    border: 2px solid rgb(181, 181, 212);
+    justify-content: center;
+}
+ #container1 h3{
+    font-size: smaller;
+    display: flex;
+    align-self: start;
+    text-align: center;
+     */
+     body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+      }
+  
+      .login-container {
+        max-width: 400px;
+        margin: 50px auto;
+        background-color: #c4aeae;
+        padding: 20px;
+        position: relative;
+        top: 5vh;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      input {
+        width: 100%;
+        border-radius: 10px;
+        padding: 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+  
+      button {
+        background-color: rgb(241, 13, 13);
+        color: #fff;
+        padding: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .request-container {
+        max-width: 400px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+  
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 8px 0;
+        box-sizing: border-box;
+      }
+  
+      button {
+        background-color: #4caf50;
+        color: #fff;
+        padding: 10px;
+        margin-top: 10px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+  
+      .btn-decline {
+        background-color: #f44336;
+      }

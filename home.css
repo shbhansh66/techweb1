@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+.header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+   
+}
+
+.header img {
+    max-width: 250px;
+    max-height: 100px;
+}
+
+.college-info {
+    margin-top: 10px;
+}
+
+.container {
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    bottom:40vh;
+}
+
+.ssr2 {
+    color: #f4eaea;
+}
+
+.p {
+    color: #ede2e2;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+select{
+    position: relative;
+    left: 43%;
+  height:5vh;
+}
+select{
+    background-color: #f3f7f3;
+    width: 100px;
+}
+
+#done{
+position:relative;
+left: 90.5vh;
+top: 2px;
+height: 5vh;
+padding: 10px;
+margin-top: 10px;
+}

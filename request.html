@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="request.css">
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header class="header">
+        <img src="WhatsApp Image 2023-12-02 at 13.39.00_24865ebb.jpg" alt="College Logo">
+        <div class="college-info">
+            <h1>GURUKUL KANGRI UNIVERSITY</h1>
+            <p>Haridwar, Uttarakhand-249404</p>  
+        </div>
+    </header>
+    <div class="request-container">
+        <h2>Student Request Form</h2>
+        <form action="process_request.php" method="post">
+          <label for="request">Request:</label>
+          <textarea id="request" name="request" rows="4" required></textarea>
+
+          <button type="submit" class="btn-accept"><a href="accept.html">Accept</a></button>
+         <button type="submit" class="btn-decline"><a href="deline.html">Decline</a></button>
+        </form>
+      </div>
+</body>
+</html>

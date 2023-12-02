@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+  }
+
+.request-container {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: #f8e4e4;
+    padding: 20px;
+    position: relative;
+    top: 10vh;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  button {
+    background-color: #10df17;
+    color: #fbf9f9;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    width: 10vw;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: larger;
+  }
+
+  .btn-decline {
+    background-color: #f44336;
+    margin-left: 20px;
+    
+  }
